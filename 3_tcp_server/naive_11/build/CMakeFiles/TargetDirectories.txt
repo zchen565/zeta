@@ -1,0 +1,2 @@
+/home/zihao/zeta/3_tcp_server/naive/build/CMakeFiles/edit_cache.dir
+/home/zihao/zeta/3_tcp_server/naive/build/CMakeFiles/rebuild_cache.dir
