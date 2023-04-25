@@ -9,4 +9,4 @@ C++11 will end up with _11 and C (pthread) will end up with _c.
 2. encapsulation (further encap and import of other libs)
 3. tcp server (build our tcp server with epoll, coroutine)
 4. rpc server (build our rcp server with protobuf or self class)
-5. head to paxos (paxos, multi-paxos, raft)
+5. head to distributed service (paxos, multi-paxos, raft)   
