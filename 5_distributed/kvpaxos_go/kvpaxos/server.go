@@ -40,7 +40,9 @@ type KVPaxos struct {
 	me         int
 	dead       bool // for testing
 	unreliable bool // for testing
-	px         *paxos.Paxos
+
+	// WAL the most important shit
+	px *paxos.Paxos
 
 	// Your definitions here.
 	db    map[string]string

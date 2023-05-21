@@ -72,7 +72,7 @@ public:
      * @return std::future<decltype(f(args...))> 
      */
     template<typename F,typename... Args>
-    auto submit(F&& f,Args&&... args) -> std::future<decltype(f(args...))> {
+    auto Submit(F&& f,Args&&... args) -> std::future<decltype(f(args...))> {
         // 一个指向 packaged_task<>的智能指针，任务可能被多出应用
         auto task_ptr = std::make_shared<std::packaged_task<decltype(f(args...))()>>(
             std::bind(std::forward<F>(f),std::forward<Args>(args)...)

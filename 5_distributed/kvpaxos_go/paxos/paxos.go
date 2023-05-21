@@ -46,12 +46,13 @@ type Paxos struct {
 	// Your data here.
 
 	// the first int for instance number due to multi-paxos
+
 	// highest porposal number seen to date
-	np map[int]int // LOCK LOCK LOCK
+	np map[int]int //
 	// highest accepted proposal
-	na map[int]int // LOCK LOCK LOCK
+	na map[int]int //
 	// value of the highest accepted proposal
-	va map[int]interface{} // LOCK LOCK LOCK
+	va map[int]interface{} //
 
 	forgot_seq int // forget()
 
